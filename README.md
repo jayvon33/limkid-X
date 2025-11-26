@@ -1,14 +1,14 @@
 # TREND-X
 
 <img src="" height="90" width="100%">
-𝐒𝐢𝐦𝐩𝐥𝐞 𝐁𝐞𝐬𝐭 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐁𝐨𝐭 𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐁𝐲 TRENDEX🌝💚
+𝐒𝐢𝐦𝐩𝐥𝐞 𝐁𝐞𝐬𝐭 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐁𝐨𝐭 𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐁𝐲 Limkid-X 🌝💚
 <div class = "repo" align = "center">
  
 <a href = "#">
 <img src = "https://media.tenor.com/rePDfDWO3XoAAAAd/hacking.gif"  width="300" height="200">
 </img>
  <p align="center">
-  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=ff00ab&center=true&vCenter=true&multiline=false&lines=TREND-X+MD+WHATSAPP+BOT+MD" alt="">
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=ff00ab&center=true&vCenter=true&multiline=false&lines=Limkid-X+MD+WHATSAPP+BOT+MD" alt="">
    
 ## 𝐃𝐄𝐏𝐋𝐎𝐘 𝐒𝐄𝐓𝐔𝐏 ↕️
 
@@ -99,11 +99,11 @@ jobs:
 ### Thank You Dear
 
 > DEVELOPER OF TREND-X 
-- [TRENDEX ](https://github.com/trendex2030)
+- [TRENDEX ](https://github.com/jayvon33)
 - Creater and Owner Of TREND-X
 
-> TREND-X Helper
-- [TRENDEX](https://github.com/trendex2030)
+> Limkid-X Helper
+- [TRENDEX](https://github.com/jayvon33)
 - For helping in bot plugin files.
 ---
 <a><img src='https://i.imgur.com/LyHic3i.gif'/># TREND-X
