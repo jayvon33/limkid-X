@@ -68,7 +68,7 @@ setInterval(clearTempDir, 5 * 60 * 1000)
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
   if (!config.SESSION_ID) return console.log('❌ Please add your SESSION_ID in config or env.')
 
-  const base64 = config.SESSION_ID.replace("trend-x~", "")
+  const base64 = config.SESSION_ID.replace("limkid-x~", "")
   try {
     const decoded = Buffer.from(base64, 'base64').toString()
 
