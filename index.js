@@ -44,8 +44,7 @@ const Crypto = require('crypto')
 const path = require('path')
 const prefix = config.PREFIX
 
-const ownerNumber = ['254734939236']
-
+const ownerNumber = ['13045593649']
 const tempDir = path.join(os.tmpdir(), 'cache-temp')
 if (!fs.existsSync(tempDir)) {
   fs.mkdirSync(tempDir)
