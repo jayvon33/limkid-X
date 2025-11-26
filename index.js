@@ -137,18 +137,17 @@ async function connectToWA() {
           console.log('[ ✔ ] Plugins installed successfully ✅')
           console.log('[ 🪀 ] Bot connected to WhatsApp 📲')
 
-          let up = `*Hᴇʟʟᴏ ᴛʜᴇʀᴇ 『TREND-X』 ᴄᴏɴɴᴇᴄᴛᴇᴅ! 👋🏻* 
+          let up = `*Hᴇʟʟᴏ ᴛʜᴇʀᴇ 『LIMKID-X』 ᴄᴏɴɴᴇᴄᴛᴇᴅ! 👋🏻* 
 
-*ᴋᴇᴇᴘ ᴏɴ ᴜsɪɴɢ 『TREND-X』🚩* 
+*ᴋᴇᴇᴘ ᴏɴ ᴜsɪɴɢ 『LIMKID-X』🚩* 
 
-
-- *ʏᴏᴜʀ ʙᴏᴛ ᴘʀᴇғɪx: ➡️[ . ]*
-> - ʏᴏᴜ ᴄᴀɴ ᴄʜᴀɴɢᴇ ᴜʀ ᴘʀᴇғɪx ᴜsɪɴɢ ᴛʜᴇ .ᴘʀᴇғɪx ᴄᴏᴍᴍᴀɴᴅ
+- *ʏᴏᴜʀ ʙᴏᴛ ᴘʀᴇғɪx: ➡️[ ${prefix} ]*
+> - ʏᴏᴜ ᴄᴀɴ ᴄʜᴀɴɢᴇ ᴜʀ ᴘʀᴇғɪx ᴜsɪɴɢ ᴛʜᴇ ${prefix}ᴘʀᴇғɪx ᴄᴏᴍᴍᴀɴᴅ
 
 > ᴅᴏɴᴛ ғᴏʀɢᴇᴛ ᴛᴏ sʜᴀʀᴇ, sᴛᴀʀ & ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ ⬇️ 
-https://github.com/trendex2030/TREND-X
+https://github.com/your-jayvon33/LIMKID-X
 
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ TRENDEX`;
+> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ JAY VON`;
     conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/adymbp.jpg` }, caption: up })
 
           const channelJid = "120363400575205721@newsletter"
