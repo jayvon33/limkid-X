@@ -16,7 +16,7 @@
 
 *_Start by forking this repository to your own GitHub account. Click the button below to fork:_*
 
-  <a href="https://github.com/trendex2030/TREND-X/fork"><img title="TREND-X" src="https://img.shields.io/badge/FORK-TREND-Xh?color=darkblue&style=for-the-badge&logo=stackshare"></a>
+  <a href="https://github.com/jayvon33/limkid-X/fork"><img title="LIMKID-X" src="https://img.shields.io/badge/FORK-LIMKID-Xh?color=darkblue&style=for-the-badge&logo=stackshare"></a>
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
