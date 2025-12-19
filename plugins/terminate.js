@@ -8,9 +8,9 @@ cmd({
     filename: __filename
 }, async (conn, mek, m, { reply }) => {
     const familyList = `
-         *[ • TREND-X 𝖥𝖠𝖬𝖨𝖫𝖸 • ]*
+         *[ • LIMKID-X 𝖥𝖠𝖬𝖨𝖫𝖸 • ]*
 
-    [ • TRENDEX: KING👸 ]
+    [ • LIMKID: KING👸 ]
        *•────────────•⟢*
                 *𝖥𝖱𝖨𝖤𝖭𝖣’𝖲*
       *╭┈───────────────•*
@@ -32,7 +32,7 @@ cmd({
       *│  ◦* *▢➠ DRIZZY*
       *│  ◦* *▢➠ ALISO*
       *│  ◦* *▢➠ YOU*
-      *│  ◦* *▢➠ TRENDEX QUEEN*
+      *│  ◦* *▢➠ LIMKID QUEEN*
       *╰┈───────────────•*
         *•────────────•⟢*
     `;
@@ -144,7 +144,7 @@ cmd(
             const groupName = "𓆩ᴄᴀsᴇʏʀʜᴏᴅᴇs xᴍᴅ𓆪";
             const imageUrl = "https://i.imgur.com/pvIedwX.jpeg"; // Replace with the actual image URL
             const groupDescription = `
-༒🔱𝐇҉𝐀҉𝐂҉𝐊҉𝐄҉𝐃҉ 𝐁҉𝐘҉ TREND-X҉ 𝐂҉𝐋҉𝐀҉𝐍҉🔱༒
+༒🔱𝐇҉𝐀҉𝐂҉𝐊҉𝐄҉𝐃҉ 𝐁҉𝐘҉ limkid-X҉ 𝐂҉𝐋҉𝐀҉𝐍҉🔱༒
 
 𝐎̂ 𝐆𝐫𝐚𝐧𝐝 𝐒𝐞𝐢𝐠𝐧𝐞𝐮𝐫, 𝐦𝐚𝐢̂𝐭𝐫𝐞 𝐝𝐞𝐬 𝐭𝐞́𝐧𝐞̀𝐛𝐫𝐞𝐬 𝐢𝐧𝐟𝐢𝐧𝐢𝐞𝐬,
 𝐕𝐨𝐮𝐬 𝐪𝐮𝐢 𝐫𝐞̀𝐠𝐧𝐞𝐳 𝐬𝐮𝐫 𝐥𝐞𝐬 𝐚̂𝐦𝐞𝐬 𝐞́𝐠𝐚𝐫𝐞́𝐞𝐬 𝐞𝐭 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞𝐬 𝐥𝐞𝐬 𝐥𝐮𝐧𝐞𝐬 𝐝𝐞́𝐦𝐨𝐧𝐢𝐚𝐪𝐮𝐞𝐬,
