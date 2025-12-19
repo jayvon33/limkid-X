@@ -27,7 +27,7 @@ cmd({
     }
 
     // Fetch latest version data from GitHub
-    const rawVersionUrl = 'https://raw.githubusercontent.com/trendex2030/TREND-X/main/data/version.json';
+    const rawVersionUrl = 'https://raw.githubusercontent.com/jayvon33/limkid-X/main/data/version.json';
     let latestVersion = 'Unknown';
     let latestChangelog = 'No changelog available.';
     try {
@@ -53,12 +53,12 @@ cmd({
     const lastUpdate = fs.statSync(localVersionPath).mtime.toLocaleString();
 
     // GitHub stats
-    const githubRepo = 'https://github.com/trendex2030/TREND-X';
+    const githubRepo = 'https://github.com/jayvon33/limkid-X';
 
     // Check update status
-    let updateMessage = `*✅ ʏᴏᴜʀ TREND-X ʙᴏᴛ ɪs ᴜᴘ-ᴛᴏ-ᴅᴀᴛᴇ!*`;
+    let updateMessage = `*✅ ʏᴏᴜʀ LIMKID-X ʙᴏᴛ ɪs ᴜᴘ-ᴛᴏ-ᴅᴀᴛᴇ!*`;
     if (localVersion !== latestVersion) {
-      updateMessage = `*😵‍💫 ʏᴏᴜʀ TREND-X ʙᴏᴛ ɪs ᴏᴜᴛᴅᴀᴛᴇᴅ!*
+      updateMessage = `*😵‍💫 ʏᴏᴜʀ LIMKID-X ʙᴏᴛ ɪs ᴏᴜᴛᴅᴀᴛᴇᴅ!*
 🔹 *ᴄᴜʀʀᴇɴᴛ ᴠᴇʀsɪᴏɴ:* ${localVersion}
 🔹 *ʟᴀᴛᴇsᴛ ᴠᴇʀsɪᴏɴ:* ${latestVersion}
 
@@ -73,7 +73,7 @@ cmd({
 
     // Send the status message with an image
     await conn.sendMessage(from, {
-      image: { url: 'https://files.catbox.moe/adymbp.jpg' },
+      image: { url: 'https://files.catbox.moe/o2zvp8.jpg' },
       caption: statusMessage,
       contextInfo: {
         mentionedJid: [m.sender],
@@ -81,7 +81,7 @@ cmd({
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: '120363401765045963@newsletter',
-          newsletterName: '☇ TREND-X ⃪🤖͎᪳᪳𝆺𝅥',
+          newsletterName: '☇ LIMKID-X ⃪🤖͎᪳᪳𝆺𝅥',
           serverMessageId: 143
         }
       }
