@@ -28,7 +28,7 @@ cmd({
 
     if (!data || data.status !== 200 || !data.downloadUrl) {
       return reply("⚠️ Failed to fetch Instagram video. Please check the link and try again.");
-    }
+    }i
 
     await conn.sendMessage(from, {
       video: { url: data.downloadUrl },
@@ -254,7 +254,7 @@ cmd({
 ┃ 📅 *Updated On:* ${app.updated}
 ┃ 👨‍💻 *Developer:* ${app.developer.name}
 ╰━━━━━━━━━━━━━━━┈⊷
-🔗 *Powered By TREND-X  tech*`;
+🔗 *Powered By LIMKID-X  tech*`;
 
     await conn.sendMessage(from, { react: { text: "⬆️", key: m.key } });
 
