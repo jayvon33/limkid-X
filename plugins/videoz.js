@@ -9,7 +9,7 @@ const newsletterConfig = {
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
             newsletterJid: '120363401765045963@newsletter',
-            newsletterName: 'TREND-X 𝐌𝐄𝐃𝐈𝐀',
+            newsletterName: 'LIMKID-X 𝐌𝐄𝐃𝐈𝐀',
             serverMessageId: 143
         }
     }
@@ -56,7 +56,7 @@ cmd({
 👤 *Channel:* ${video.author.name}
 🔗 *URL:* ${video.url}
 
-⚡ *Powered by TREND-X*`;
+⚡ *Powered by LIMKID-X*`;
 
         // Send video with caption and newsletter context
         await conn.sendMessage(from, { 
@@ -118,7 +118,7 @@ cmd({
                 ...newsletterConfig.contextInfo,
                 externalAdReply: {
                     title: song.title.length > 25 ? `${song.title.substring(0, 22)}...` : song.title,
-                    body: "🎵 TREND-X Music Downloader",
+                    body: "🎵 LIMKID-X Music Downloader",
                     mediaType: 1,
                     thumbnailUrl: song.thumbnail.replace('default.jpg', 'hqdefault.jpg'),
                     sourceUrl: song.url,
