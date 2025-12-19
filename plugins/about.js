@@ -2,7 +2,7 @@ const config = require('../config')
 const {cmd , commands} = require('../command')
 cmd({
     pattern: "about",
-    alias: ["trendex","whois"], 
+    alias: ["limkid","whois"], 
     react: "👑",
     desc: "get owner dec",
     category: "main",
@@ -11,17 +11,17 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 let about = `
-*╭━━〔 TREND X 〕━━┈⊷*
+*╭━━〔 LIMKID X 〕━━┈⊷*
 
 *👋 HELLO ${pushname}*
 
 *╰──────────────┈⊷*
 *╭━━━〔 MY ABOUT 〕━━━┈⊷*
 *┃★╭──────────────*
-*┃★│* *ᴡᴇʟᴄᴏᴍᴇ ɪᴛs TREND-x-ʙᴏᴛ*
-*┃★│* *ᴄʀᴇᴀᴛᴇʀ : TRENDEX*
-*┃★│* *ʀᴇᴀʟ ɴᴀᴍᴇ : TRENDEX KING*
-*┃★│* *ᴘᴜʙʟɪᴄ ɴᴀᴍᴇ : TREND-X*
+*┃★│* *ᴡᴇʟᴄᴏᴍᴇ ɪᴛs LIMKID-x-ʙᴏᴛ*
+*┃★│* *ᴄʀᴇᴀᴛᴇʀ : LIMKIDX*
+*┃★│* *ʀᴇᴀʟ ɴᴀᴍᴇ : JAYVON KING*
+*┃★│* *ᴘᴜʙʟɪᴄ ɴᴀᴍᴇ : LIMKID-X*
 *┃★│* *ᴀɢᴇ : 19 ʏᴇᴀʀ*
 *┃★│* *ᴄɪᴛʏ : MOMBASA*
 *┃★│* *ᴀ sɪᴍᴘʟᴇ ᴡʜᴀᴛsᴀᴘᴘ ᴅᴇᴠᴇʟᴘᴏʀ*
@@ -42,18 +42,18 @@ let about = `
 *╰━━━━━━━━━━━━━━━┈⊷*
 
 *•────────────•⟢*
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ TREND X
+> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ LIMKID X
 *•────────────•⟢*
 `
 
-await conn.sendMessage(from,{image:{url:`https://files.catbox.moe/adymbp.jpg`},caption:about,
+await conn.sendMessage(from,{image:{url:`https://files.catbox.moe/o2zvp8.jpg`},caption:about,
                              contextInfo: {
     mentionedJid: [m.sender],
     forwardingScore: 999,
     isForwarded: true,
     forwardedNewsletterMessageInfo: {
       newsletterJid: '120363401765045963@newsletter',
-      newsletterName: 'TREND-X',
+      newsletterName: 'LIMKID-X',
       serverMessageId: 999
     }
   }
