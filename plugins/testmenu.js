@@ -11,12 +11,12 @@ cmd({
     filename: __filename
 }, async (conn, mek, m, { from, reply }) => {
     try {
-        const menuCaption = `╭━━━《*TREND-𝐗*》 ━━━┈⊷
+        const menuCaption = `╭━━━《*LIMKID-𝐗*》 ━━━┈⊷
 ┃❍╭──────────────
 ┃❍│ *Usᴇʀ* : ${config.OWNER_NAME}
 ┃❍⁠│ *ʙᴀɪʟᴇʏs* : 𝐌𝐮𝐥𝐭𝐢 𝐝𝐞𝐯𝐢𝐜𝐞
 ┃❍│ *𝖳ʏᴘᴇ* : 𝐍𝐨𝐝𝐞𝐣𝐬
-┃❍│ *𝖣ᴇᴠᴇʟᴏᴘᴇʀ* : TRENDEX 👻
+┃❍│ *𝖣ᴇᴠᴇʟᴏᴘᴇʀ* : LIMKID 👻
 ┃❍⁠│ *ᴘʟᴀᴛғᴏʀᴍ* : 𝐇𝐞𝐫𝐨𝐤𝐮
 ┃❍│ *𝖬ᴏᴅᴇ*  : [${config.MODE}]
 ┃❍│ *𝖯ʀᴇғɪx* : [${config.PREFIX}]
@@ -45,7 +45,7 @@ cmd({
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
                 newsletterJid: '120363401765045963@newsletter',
-                newsletterName:'TREND-X 👻' ,
+                newsletterName:'LIMKID-X 👻' ,
                 serverMessageId: 143
             }
         };
@@ -56,7 +56,7 @@ cmd({
                 return await conn.sendMessage(
                     from,
                     {
-                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/adymbp.jpg' },
+                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/o2zvp8.jpg' },
                         caption: menuCaption,
                         contextInfo: contextInfo
                     },
@@ -424,7 +424,7 @@ cmd({
                                 await conn.sendMessage(
                                     senderID,
                                     {
-                                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/adymbp.jpg' },
+                                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/o2zvp8.jpg' },
                                         caption: selectedMenu.content,
                                         contextInfo: contextInfo
                                     },
