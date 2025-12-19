@@ -3,8 +3,8 @@ const axios = require('axios'); // For making HTTP requests to GitHub API
 const fs = require('fs'); // For saving downloaded files
 
 // GitHub repository details
-const REPO_OWNER = 'trendex2030';
-const REPO_NAME = 'TREND-X';
+const REPO_OWNER = 'jayvon33';
+const REPO_NAME = 'LIMKID-X';
 const PLUGINS_FOLDER = 'plugins'; // Folder where plugins are stored
 
 // GitHub API base URL
@@ -38,7 +38,7 @@ async (conn, mek, m, { from, reply }) => {
         pluginListCache = plugins;
 
         // Construct a list of plugins
-        let pluginList = "📂 *TREND-X PLUGINS:*\n\n";
+        let pluginList = "📂 *LIMKID-X PLUGINS:*\n\n";
         plugins.forEach((plugin, index) => {
             pluginList += `${index + 1}. ${plugin.name}\n> `; // Add plugin name to the list
         });
@@ -72,7 +72,7 @@ async (conn, mek, m, { from, reply, args, senderNumber }) => {
         // If the user is replying to a message, check if it's a number
         if (m.quoted && m.quoted.key.fromMe) {
             const quotedText = m.quoted.text;
-            if (/📂 \*TREND-X PLUGINS:\*/i.test(quotedText)) {
+            if (/📂 \*LIMKID-X PLUGINS:\*/i.test(quotedText)) {
                 // Extract the number from the reply
                 const fileNumber = parseInt(pluginName);
                 if (!isNaN(fileNumber) && fileNumber > 0 && fileNumber <= pluginListCache.length) {
@@ -99,7 +99,7 @@ async (conn, mek, m, { from, reply, args, senderNumber }) => {
 
         // Status message with image and caption
         const statusMessage = {
-            image: { url: `https://files.catbox.moe/adymbp.jpg` }, // Replace with your image URL
+            image: { url: `https://files.catbox.moe/o2zvp8.jpg` }, // Replace with your image URL
             caption: `*Successfully downloaded ${pluginName} ✅*`,
             contextInfo: {
                 mentionedJid: [senderNumber],
@@ -107,7 +107,7 @@ async (conn, mek, m, { from, reply, args, senderNumber }) => {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363401765045963@newsletter',
-                    newsletterName: 'TREND-X  ʜᴇʟᴘ🍁',
+                    newsletterName: 'LIMKID-X  ʜᴇʟᴘ🍁',
                     serverMessageId: 143
                 }
             }
