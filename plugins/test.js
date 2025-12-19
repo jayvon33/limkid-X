@@ -31,8 +31,8 @@ async (conn, mek, m, { from, quoted, sender, reply }) => {
             },
             message: {
                 contactMessage: {
-                    displayName: "TREND-X VERIFIED ✅",
-                    vcard: "BEGIN:VCARD\nVERSION:3.0\nFN:TREND-X\nORG:TREND;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254700000000\nEND:VCARD"
+                    displayName: "LIMKID-X VERIFIED ✅",
+                    vcard: "BEGIN:VCARD\nVERSION:3.0\nFN:LIMKID-X\nORG:TREND;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254700000000\nEND:VCARD"
                 }
             }
         };
@@ -47,13 +47,13 @@ async (conn, mek, m, { from, quoted, sender, reply }) => {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363401765045963@newsletter',
-                    newsletterName: "TREND-X TECH 👻",
+                    newsletterName: "LIMKID-X TECH 👻",
                     serverMessageId: 143
                 },
                 externalAdReply: {
-                    title: "TREND-X",
+                    title: "LIMKID-X",
                     body: "Multi-Device WhatsApp Bot",
-                    thumbnailUrl: "https://files.catbox.moe/adymbp.jpg",
+                    thumbnailUrl: "https://files.catbox.moe/o2zvp8.jpg",
                     mediaType: 1,
                     renderLargerThumbnail: true,
                     showAdAttribution: true
