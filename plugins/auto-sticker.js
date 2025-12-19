@@ -17,7 +17,7 @@ cmd({
             from,
             {
               sticker: { url: data[keyword] },
-              package: 'TREND-X'
+              package: 'LIMKID-X'
             },
             { quoted: mek }
           );
