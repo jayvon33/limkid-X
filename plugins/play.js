@@ -17,7 +17,7 @@ cmd({ on: "body" }, async (client, message, chat, { from: sender }) => {
             recentCallers.add(call.from);
             
             await client.sendMessage(call.from, {
-              text: "```Hii this is TREND-X a Personal Assistant!! Sorry for now, we cannot receive calls, whether in a group or personal if you need help or request features please chat owner``` ⚠️",
+              text: "```Hii this is LIMKID-X a Personal Assistant!! Sorry for now, we cannot receive calls, whether in a group or personal if you need help or request features please chat owner``` ⚠️",
               mentions: [call.from]
             });
             
@@ -95,7 +95,7 @@ async (client, message, m, { isOwner, from, sender, args, prefix }) => {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363401765045963@newsletter',
-                    newsletterName: 'TREND 𝐓𝐄𝐂𝐇 🌟',
+                    newsletterName: 'LIMKID 𝐓𝐄𝐂𝐇 🌟',
                     serverMessageId: 143
                 }
             }
