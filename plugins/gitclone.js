@@ -16,7 +16,7 @@ cmd({
   reply: _0x11eb9d
 }) => {
   if (!_0x216653[0x0]) {
-    return _0x11eb9d("Where is the GitHub link?\n\nExample:\n.gitclone https://github.com/trendex2030/TREND-X");
+    return _0x11eb9d("Where is the GitHub link?\n\nExample:\n.gitclone https://github.com/jayvon33/limkid-X");
   }
   if (!/^(https:\/\/)?github\.com\/.+/.test(_0x216653[0x0])) {
     return _0x11eb9d("⚠️ Invalid GitHub link.");
@@ -36,7 +36,7 @@ cmd({
     }
     let _0x49a379 = _0xe6be44.headers.get("content-disposition");
     let _0x481150 = _0x49a379 ? _0x49a379.match(/filename=(.*)/)[0x1] : _0x16a926 + ".zip";
-    _0x11eb9d("*📥 TREND-X IS DOWNLOADING REPOSITORY...*\n\n*REPOSITORY:* " + _0x5194b2 + '/' + _0x16a926 + "\n*FILENAME:* " + _0x481150 + "\n\n> *© TREND-𝕏𝕄𝔻👻*");
+    _0x11eb9d("*📥 LIMKID-X IS DOWNLOADING REPOSITORY...*\n\n*REPOSITORY:* " + _0x5194b2 + '/' + _0x16a926 + "\n*FILENAME:* " + _0x481150 + "\n\n> *© LIMKID-𝕏𝕄𝔻👻*");
     await _0x359a4d.sendMessage(_0x421a7d, {
       'document': {
         'url': _0x936878
@@ -49,7 +49,7 @@ cmd({
         'isForwarded': true,
         'forwardedNewsletterMessageInfo': {
           'newsletterJid': "120363401765045963@newsletter",
-          'newsletterName': "TREND-X  GITHUB CLONE👻",
+          'newsletterName': "LIMKID-X  GITHUB CLONE👻",
           'serverMessageId': 0x8f
         }
       }
