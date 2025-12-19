@@ -65,7 +65,7 @@ cmd({
       `*${mediaType} ᴜᴘʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇsғᴜʟʟʏ ✅*\n\n` +
       `*Size:* ${formatBytes(mediaBuffer.length)}\n` +
       `*URL:* ${mediaUrl}\n\n` +
-      `> ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ TREND-X ᴛᴇᴄʜ 🌟`
+      `> ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ LIMKID-X ᴛᴇᴄʜ 🌟`
     );
 
   } catch (error) {
