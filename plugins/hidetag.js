@@ -1,6 +1,6 @@
 const { cmd } = require('../command');
 
-// Fixed & Created By TRENDEX 
+// Fixed & Created By JAYVON 
 cmd({
   pattern: "hidetag",
   alias: ["tag", "h"],  
