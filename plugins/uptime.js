@@ -24,14 +24,14 @@ cmd({
     },
     message: {
       contactMessage: {
-        displayName: "TREND-X | TREND-X",
-        vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:TREND | TREND-X\nORG:TREND;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD`,
+        displayName: "LIMKID-X | LIMKID-X",
+        vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:TREND | LIMKID-X\nORG:TREND;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD`,
         jpegThumbnail: Buffer.alloc(0)
       }
     }
   };
 
-  const uptimeText = `*🤖 TREND-X Bot Uptime:*\n🕒 ${runtime()}\n\n💡 The bot has been running without interruption.`;
+  const uptimeText = `*🤖 LIMKID-X Bot Uptime:*\n🕒 ${runtime()}\n\n💡 The bot has been running without interruption.`;
 
   await Void.sendMessage(m.chat, {
     text: uptimeText,
@@ -40,16 +40,16 @@ cmd({
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
         newsletterJid: "120363401765045963@newsletter",
-        newsletterName: "TREND-X Official"
+        newsletterName: "LIMKID-X Official"
       },
       externalAdReply: {
-        title: "TREND-X",
-        body: "Uptime Monitor by TREND-X",
-        thumbnailUrl: "https://files.catbox.moe/adymbp.jpg",
+        title: "LIMKID-X",
+        body: "Uptime Monitor by LIMKID-X",
+        thumbnailUrl: "https://files.catbox.moe/o2zvp8.jpg",
         mediaType: 1,
         renderLargerThumbnail: true,
         showAdAttribution: true,
-        sourceUrl: "https://github.com/trendex2030"
+        sourceUrl: "https://github.com/jayvon33"
       }
     }
   }, { quoted: fakeContact });
