@@ -816,7 +816,7 @@ if (!isReact && config.CUSTOM_REACT === 'true') {
   }
   
   app.get("/", (req, res) => {
-  res.send("『TREND-X』 STARTED ✅");
+  res.send("『LIMKID-X』 STARTED ✅");
   });
   app.listen(port, '0.0.0.0', () => console.log(`Server listening on port http://0.0.0.0:${port}`));
   setTimeout(() => {
